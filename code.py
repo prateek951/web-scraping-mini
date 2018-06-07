@@ -5,7 +5,7 @@
     dataquest.io using the requests library in Python and use the information for extracting some meaningful results 
     from the data we get.
 """
-
+import requests
 response = requests.get("http://dataquestio.github.io/web-scraping-pages/simple.html")
 content = response.content
 
